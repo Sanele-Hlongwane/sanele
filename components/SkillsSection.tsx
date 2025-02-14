@@ -1,10 +1,9 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { 
-  FaClipboardList, FaTasks, FaCode, FaReact, FaLaptopCode, 
+import {  FaCode, FaLaptopCode, 
   FaDatabase, FaPaintBrush, FaMobileAlt, FaCloud, FaBrain, FaShieldAlt,
-  FaUsers, FaLightbulb, FaChartBar, FaClock, FaCommentDots
+  FaUsers, FaChartBar, FaClock, FaCommentDots
 } from "react-icons/fa";
 
 const SkillsSection: React.FC = () => {

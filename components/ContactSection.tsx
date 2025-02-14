@@ -8,14 +8,10 @@ import {
   MapPinIcon,
   GlobeAltIcon,
 } from "@heroicons/react/24/outline";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaFacebookF,  FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xrbzlwpr");
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 3000);
-  }, []);
 
   return (
     <div className="bg-gradient-to-r from-blue-800 to-purple-900 dark:from-gray-900 dark:to-black py-16">

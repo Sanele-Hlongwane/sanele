@@ -4,12 +4,11 @@ import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, Sun, Moon } from "lucide-react";
+import { Menu, X} from "lucide-react";
 import { FaMoon, FaSun } from "react-icons/fa";
 
 const Header = () => {
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
