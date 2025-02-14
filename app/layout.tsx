@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import { ThemeProvider } from 'next-themes'
 import { FaGithub, FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
