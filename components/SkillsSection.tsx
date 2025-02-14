@@ -8,7 +8,7 @@ import {  FaCode, FaLaptopCode,
 
 const SkillsSection: React.FC = () => {
   return (
-    <section className="bg-gray-100 dark:bg-gray-900 py-16">
+    <section className="bg-gradient-to-r from-blue-800 to-purple-900 dark:from-gray-900 dark:to-black py-16">
       <div className="container mx-auto px-6">
         {/* Title Section */}
         <motion.div

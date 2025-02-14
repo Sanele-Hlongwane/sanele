@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="lg:py-16">
+    <section className="lg:py-16 p-10">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -39,19 +39,13 @@ const HeroSection: React.FC = () => {
             />
           </h1>
           <p className="text-gray-400 dark:text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Unlocking Innovative Solutions Together! I am Sanele Hlongwane, a
+            I am Sanele Hlongwane, a
             passionate Software Developer eager to embark on exciting projects
             and collaborations. My mission is to transform ideas into reality
             through cutting-edge technology. Let&apos;s connect and build
             something extraordinary that drives success and innovation!
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link
-              href="/contact"
-              className="px-6 py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
-            >
-              Hire Me
-            </Link>
             <Link
               href="/docs/My_CV.pdf"
               target="_blank"
@@ -71,7 +65,7 @@ const HeroSection: React.FC = () => {
               </span>
             </Link>
             <Link
-              href="/docs/Academic_Transcript.pdf"
+              href="/docs/Academic.pdf"
               target="_blank"
               className="px-1 py-1 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 text-white"
             >

@@ -96,7 +96,7 @@ function ContactForm() {
           <div className="space-y-8">
             <h3 className="text-center text-2xl md:text-xl sm:text-lg font-bold mb-8 text-gray-800 dark:text-gray-200">
               <GlobeAltIcon className="h-8 w-8 inline-block text-green-600 dark:text-green-400 mr-2" />
-              Other Ways to Reach Us
+              Other Ways to Reach Me
             </h3>
             <div className="space-y-6">
               <div className="flex items-center mb-4">
@@ -136,7 +136,7 @@ function ContactForm() {
             {/* Social Media Links */}
             <div className="text-center">
               <h3 className="text-xl md:text-lg sm:text-base font-bold mb-6 text-gray-800 dark:text-gray-200">
-                Follow Us
+                Follow Me
               </h3>
               <div className="flex justify-center space-x-4">
                 <a
