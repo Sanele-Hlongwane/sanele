@@ -15,7 +15,7 @@ function ContactForm() {
 
   return (
     <div className="bg-gradient-to-r from-blue-800 to-purple-900 dark:from-gray-900 dark:to-black py-16">
-      <div className="max-w-4xl mx-auto p-8 bg-gray-100 dark:bg-gray-800 shadow-xl rounded-lg mb-12 backdrop-blur-lg bg-opacity-30">
+      <div className="max-w-4xl mx-auto p-8 rounded-lg mb-12 backdrop-blur-lg bg-opacity-30">
         {/* Container with spacing and background */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Form */}
@@ -49,7 +49,7 @@ function ContactForm() {
                     type="email"
                     name="email"
                     required
-                    className="w-full p-3 border border-gray-300 rounded-lg dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400"
+                    className="w-full p-3 border border-gray-300 rounded-lg dark:border-gray-600 bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400"
                     placeholder="Enter your email"
                   />
                   <ValidationError
@@ -71,7 +71,7 @@ function ContactForm() {
                     id="message"
                     name="message"
                     required
-                    className="w-full p-3 border border-gray-300 rounded-lg dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400"
+                    className="w-full p-3 border border-gray-300 rounded-lg dark:border-gray-600 bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400"
                     placeholder="Enter your message"
                   />
                   <ValidationError
