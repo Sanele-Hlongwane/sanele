@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="lg:py-16 p-10">
+    <section className="lg:py-16 p-10 mt-10">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
