@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import { ThemeProvider } from 'next-themes'
-import { FaFacebook, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
 const geistSans = Geist({
