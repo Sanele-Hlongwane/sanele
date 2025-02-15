@@ -1,24 +1,18 @@
 "use client";
 
 import { useForm, ValidationError } from "@formspree/react";
-import {
-  EnvelopeIcon,
-  ChatBubbleLeftEllipsisIcon,
-  PhoneIcon,
-  MapPinIcon,
+import { EnvelopeIcon, ChatBubbleLeftEllipsisIcon, PhoneIcon, MapPinIcon,
   GlobeAltIcon,
 } from "@heroicons/react/24/outline";
-import { FaFacebookF,  FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaFacebook } from "react-icons/fa";
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xrbzlwpr");
 
   return (
-    <div className="bg-gradient-to-r from-blue-800 to-purple-900 dark:from-gray-900 dark:to-black py-16">
+    <div className="bg-gradient-to-r  border-t border-purple-500 from-blue-800 to-purple-900 dark:from-gray-900 dark:to-black py-16">
       <div className="max-w-4xl mx-auto p-8 rounded-lg mb-12 backdrop-blur-lg bg-opacity-30">
-        {/* Container with spacing and background */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Contact Form */}
           <div className="space-y-8">
             <h3 className="text-center text-2xl md:text-xl sm:text-lg font-bold mb-8 text-gray-800 dark:text-gray-200">
               <EnvelopeIcon className="h-8 w-8 inline-block text-blue-600 dark:text-blue-400 mr-2" />
@@ -92,7 +86,6 @@ function ContactForm() {
             )}
           </div>
 
-          {/* Contact Information */}
           <div className="space-y-8">
             <h3 className="text-center text-2xl md:text-xl sm:text-lg font-bold mb-8 text-gray-800 dark:text-gray-200">
               <GlobeAltIcon className="h-8 w-8 inline-block text-green-600 dark:text-green-400 mr-2" />
@@ -133,19 +126,18 @@ function ContactForm() {
               </div>
             </div>
 
-            {/* Social Media Links */}
             <div className="text-center">
               <h3 className="text-xl md:text-lg sm:text-base font-bold mb-6 text-gray-800 dark:text-gray-200">
                 Follow Me
               </h3>
               <div className="flex justify-center space-x-4">
                 <a
-                  href="https://www.facebook.com/"
+                  href="https://facebook.com/profile.php?id=61567059432813"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
                 >
-                  <FaFacebookF className="h-6 w-6" />
+                  <FaFacebook className="h-6 w-6" />
                 </a>
                 <a
                   href="https://github.com/Sanele-Hlongwane"
@@ -156,7 +148,7 @@ function ContactForm() {
                   <FaGithub className="h-6 w-6" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/Sanele-Hlongwane"
+                  href="https://www.linkedin.com/in/sanele-hlongwane"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-700 dark:text-blue-500 hover:text-blue-800 dark:hover:text-blue-400"

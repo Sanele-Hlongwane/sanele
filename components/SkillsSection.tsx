@@ -17,7 +17,7 @@ const SkillsSection: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 dark:text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text mb-12">
             My Skills & Expertise
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300">  

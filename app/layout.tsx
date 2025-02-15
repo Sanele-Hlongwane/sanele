@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import { ThemeProvider } from 'next-themes'
-import { FaGithub, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
 const geistSans = Geist({
@@ -56,14 +56,14 @@ export default function RootLayout({
           <div className="flex flex-col space-y-2">
             <h3 className="text-white text-lg font-semibold">Connect</h3>
             <div className="flex space-x-4">
-              <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Sanele-Hlongwane" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="w-6 h-6 hover:text-white" />
               </a>
-              <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/sanele-hlongwane" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="w-6 h-6 hover:text-white" />
               </a>
-              <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer">
-                <FaTwitter className="w-6 h-6 hover:text-white" />
+              <a href="https://facebook.com/profile.php?id=61567059432813" target="_blank" rel="noopener noreferrer">
+                <FaFacebook className="w-6 h-6 hover:text-white" />
               </a>
             </div>
           </div>
