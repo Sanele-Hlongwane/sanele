@@ -100,7 +100,7 @@ const ProjectsSection = () => {
                   >
                     View Code
                   </Link>
-                  {project.deployed ? (
+                  {project.deployed && project.link && (
                     <Link
                       href={project.link}
                       target="_blank"
@@ -108,7 +108,8 @@ const ProjectsSection = () => {
                     >
                       Live Preview
                     </Link>
-                  ) : (
+                  )}
+                  {!project.deployed && (
                     <span className="px-4 py-2 text-sm font-semibold text-gray-400 bg-gray-700 rounded-lg cursor-not-allowed">
                       Not Deployed
                     </span>
