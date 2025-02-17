@@ -1,6 +1,5 @@
 "use client";
 
-import { useTheme } from "next-themes";
 import { useState } from "react";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
