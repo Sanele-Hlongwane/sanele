@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-black dark:text-white mb-4 text-4xl sm:text-3xl lg:text-5xl lg:leading-normal font-extrabold">
-          <span className="text-purple-600 bg-transparent text-black bg-gradient-to-r from-primary-400 to-secondary-600">
+          <span className="text-gray-700 bg-transparent text-black bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
             <br />
@@ -83,7 +83,7 @@ const HeroSection: React.FC = () => {
         >
           <div className="rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
             <Image
-              src="/images/Sanele.avif"
+              src="/images/Cover.png"
               alt="sanele"
               className="absolute inset-0 object-cover"
               width={300}

@@ -8,7 +8,7 @@ import {  FaCode, FaLaptopCode,
 
 const SkillsSection: React.FC = () => {
   return (
-    <section className="bg-gradient-to-r from-blue-800 to-purple-900 dark:from-gray-900 dark:to-black py-16">
+    <section className="bg-gradient-to-r from-gray-200 to-gray-400 dark:from-gray-900 dark:to-black py-16">
       <div className="container mx-auto px-6">
         {/* Title Section */}
         <motion.div
@@ -17,7 +17,7 @@ const SkillsSection: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text mb-12">
+          <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-300 via-gray-500 to-gray-700 text-transparent bg-clip-text mb-12">
             My Skills & Expertise
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300">  
@@ -84,7 +84,7 @@ const SkillCard = ({ title, icon, skills }: { title: string, icon: JSX.Element, 
     </h3>
     <ul className="text-gray-600 dark:text-gray-300 flex flex-wrap gap-4">
       {skills.map((skill, index) => (
-        <li key={index} className="bg-gray-200 dark:bg-gray-800 px-3 py-1 rounded-md text-sm">
+        <li key={index} className="bg-gray-300 dark:bg-gray-800 px-3 py-1 rounded-md text-sm">
           {skill}
         </li>
       ))}

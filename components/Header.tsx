@@ -4,15 +4,9 @@ import { useTheme } from "next-themes";
 import { useState } from "react";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
-import { FaMoon, FaSun } from "react-icons/fa";
 
 const Header = () => {
-  const { theme, setTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
-
-  const handleThemeToggle = () => {
-    setTheme(theme === "light" ? "dark" : "light");
-  };
 
   return (
     <header className="fixed top-0 left-0 w-full bg-opacity-80 backdrop-blur-md shadow-lg z-50 border-b border-gray-300 dark:border-gray-700">
@@ -36,14 +30,6 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center space-x-4">
-          <button onClick={handleThemeToggle} className="focus:outline-none">
-            {theme === "dark" ? (
-              <FaSun className="w-6 h-6 text-yellow-300" />
-            ) : (
-              <FaMoon className="w-6 h-6 text-purple-700" />
-            )}
-          </button>
-
           {/* Mobile Menu Toggle */}
           <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (

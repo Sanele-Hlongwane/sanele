@@ -10,7 +10,7 @@ function ContactForm() {
   const [state, handleSubmit] = useForm("xrbzlwpr");
 
   return (
-    <div className="bg-gradient-to-r  border-t border-purple-500 from-blue-800 to-purple-900 dark:from-gray-900 dark:to-black py-16">
+    <div className="border-t border-gray-100 bg-gradient-to-r from-gray-200 to-gray-400 dark:from-gray-900 dark:to-black py-16">
       <div className="max-w-4xl mx-auto p-8 rounded-lg mb-12 backdrop-blur-lg bg-opacity-30">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="space-y-8">

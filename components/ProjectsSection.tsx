@@ -43,9 +43,9 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section className="py-16 px-6 md:px-12 lg:px-20 bg-gradient-to-r from-blue-800 to-purple-900 dark:from-gray-900 dark:to-black border-t border-purple-500">
+    <section className="py-16 px-6 md:px-12 lg:px-20 bg-gradient-to-r from-gray-200 to-gray-400 dark:from-gray-900 dark:to-black border-t border-gray-50">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text mb-12">
+        <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-gray-300 via-gray-500 to-gray-700 text-transparent bg-clip-text mb-12">
           My Projects
         </h2>
 
@@ -78,14 +78,14 @@ const ProjectsSection = () => {
               </motion.div>
 
               {/* Project Info */}
-              <div className="p-6 bg-gradient-to-b from-gray-50 dark:from-gray-800 dark:to-gray-900 rounded-b-2xl">
+              <div className="p-6 bg-gradient-to-b from-gray-200 dark:from-gray-800 dark:to-gray-900 rounded-b-2xl">
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300 mt-2">{project.description}</p>
 
                 {/* Languages Used */}
                 <div className="mt-3 flex flex-wrap gap-2">
                   {project.languages.map((lang, i) => (
-                    <span key={i} className="px-3 py-1 text-sm font-semibold text-white bg-purple-600 rounded-full">
+                    <span key={i} className="px-3 py-1 text-sm font-semibold text-white bg-gray-600 rounded-full">
                       {lang}
                     </span>
                   ))}
